@@ -38,3 +38,7 @@ h1 {
 #resetButton {
   text-align: center;
 }
+
+#audioPlayer {
+  display: none;
+}

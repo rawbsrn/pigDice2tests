@@ -48,6 +48,10 @@ Player.prototype.winner = function () {
   }
 }
 
+
+
+// let audio = new Audio("http://www.ringelkater.de/Sounds/2geraeusche_gegenst/wuerfelbecher.wav");
+
 //UI interface
 $(document).ready(function() {
   $("#buttonRoll1").click(function(event) {
