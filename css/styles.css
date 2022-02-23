@@ -5,22 +5,17 @@ body {
 .box1 {
   box-sizing: border-box;
   float: left;
-  width: 50%;
+  width: 45%;
+  border: 5px solid white;
+  padding: 25px;
 }
 
 .box2 {
   box-sizing: border-box;
   float: right;  
-  width: 47%;
-  
-}
-
-#game {  
-  width: 1000px;
+  width:  45%;
   border: 5px solid white;
   padding: 25px;
-  margin: 50px;
-  /* float: right;   */
 }
 
 h1 {
@@ -33,6 +28,10 @@ h1 {
 }
 
 #weeknd {
+  display: none;
+}
+
+#migos {
   display: none;
 }
 

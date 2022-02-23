@@ -9,6 +9,10 @@
   </head>
   <body>
   <center><h1>Pig Dice Game</h1></center>
+  <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+  </audio>
   <form>
     <!-- Name Input -->
     <div class="form-group">
@@ -25,27 +29,26 @@
   </form>
     <div class="box1">
       <div id="game">
-        <button type="button" class="btn btn-primary" id="buttonRoll">Throw them bones</button>
+        <button type="button" class="btn btn-primary" id="buttonRoll1">Throw them bones</button>
         <img id="weeknd" src="https://media0.giphy.com/media/VGoZVlR9naOZCiRLSy/giphy.gif?cid=ecf05e47kvhirbyk69z4ni5euyaf7wzu13godl5uyf2gwtwu&rid=giphy.gif&ct=g" alt="weeknd throwing die">
-        <button type="button" class="btn btn-success" id="buttonHold">Hold!</button>
+        <button type="button" class="btn btn-success" id="buttonHold1">Hold!</button>
         <h2>Player 1: <span class="player1"></span></h2>
-        <p><span id="totalScore">Your total score:</span></p>
-        <p><span id="tempScore">Your temporary score:</span></p>
-        <p><span id="dieRoll">Your current die roll:</span></p>
-        <p id="resetButton"><button type="button" class="btn btn-danger" id="refresh">Restart Game!</button></p>
+        <p><span id="totalScore1">Your total score:</span></p>
+        <p><span id="tempScore1">Your temporary score:</span></p>
+        <p><span id="dieRoll1">Your current die roll:</span></p>
       </div>
     </div>
     <div class="box2">
       <div id="game">
-        <img id="weeknd" src="https://media0.giphy.com/media/VGoZVlR9naOZCiRLSy/giphy.gif?cid=ecf05e47kvhirbyk69z4ni5euyaf7wzu13godl5uyf2gwtwu&rid=giphy.gif&ct=g" alt="weeknd throwing die">
-        <button type="button" class="btn btn-primary" id="buttonRoll">Throw them bones</button>
-        <button type="button" class="btn btn-success" id="buttonHold">Hold!</button>
+        <img id="migos" src="https://c.tenor.com/5PepR8rD4U0AAAAC/throwing-dice-quavo.gif" alt="throwing die">
+        <button type="button" class="btn btn-primary" id="buttonRoll2">Throw them bones</button>
+        <button type="button" class="btn btn-success" id="buttonHold2">Hold!</button>
         <h2>Player 2: <span class="player2"></span></h2>
-        <p><span id="totalScore">Your total score:</span></p>
-        <p><span id="tempScore">Your temporary score:</span></p>
-        <p><span id="dieRoll">Your current die roll:</span></p>
-        <p id="resetButton"><button type="button" class="btn btn-danger" id="refresh">Restart Game!</button></p>
+        <p><span id="totalScore2">Your total score:</span></p>
+        <p><span id="tempScore2">Your temporary score:</span></p>
+        <p><span id="dieRoll2">Your current die roll:</span></p>
       </div>
     </div>
+    <p id="resetButton"><button type="button" class="btn btn-danger" id="refresh">Restart Game!</button></p>
   </body>
 </html>
