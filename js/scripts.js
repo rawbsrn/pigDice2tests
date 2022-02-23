@@ -12,7 +12,8 @@ let player2 = new Player();
 
 //prototype method ONLY WORKS IN CONSOLE
 Player.prototype.name = function () {
-  this.playerName = prompt("Please enter your Name:");
+  const nameInput=$("input#player1").val();
+  this.playerName = nameInput;
 }
 
 //prototype method
@@ -34,14 +35,12 @@ Player.prototype.hold = function () {
   this.turn = 0; 
 }
 
-// player1.name();
-// player1.dieRoll();
-// player1.hold();
-
 //UI interface
 $(document).ready(function() {
   $("#buttonRoll").click(function(event) {
     event.preventDefault();
+    player1.name();
+    $(".player1").text(player1.playerName);
     $("#weeknd").show()
     player1.dieRoll();
     $("#tempScore").text("Your temporary score: " + player1.tempScore);

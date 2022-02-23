@@ -8,21 +8,44 @@
     <title>Pig Dice Game</title>
   </head>
   <body>
-
-    <div class="container">
-      <h1>Pig Dice Game</h1>
+  <center><h1>Pig Dice Game</h1></center>
+  <form>
+    <!-- Name Input -->
+    <div class="form-group">
+        <label for="name">Player 1 enter your name?</label>
+        <input id="player1" class="form-control" type="text">
+    </div>
+    <form>
+      <!-- Name Input -->
+      <div class="form-group">
+          <label for="name">Player 2 enter your name?</label>
+          <input id="player1" class="form-control" type="text">
+      </div>
+    </form>
+  </form>
+    <div class="box1">
       <div id="game">
         <button type="button" class="btn btn-primary" id="buttonRoll">Throw them bones</button>
         <img id="weeknd" src="https://media0.giphy.com/media/VGoZVlR9naOZCiRLSy/giphy.gif?cid=ecf05e47kvhirbyk69z4ni5euyaf7wzu13godl5uyf2gwtwu&rid=giphy.gif&ct=g" alt="weeknd throwing die">
         <button type="button" class="btn btn-success" id="buttonHold">Hold!</button>
+        <h2>Player 1: <span class="player1"></span></h2>
         <p><span id="totalScore">Your total score:</span></p>
         <p><span id="tempScore">Your temporary score:</span></p>
         <p><span id="dieRoll">Your current die roll:</span></p>
         <p id="resetButton"><button type="button" class="btn btn-danger" id="refresh">Restart Game!</button></p>
       </div>
     </div>
-    
-    
+    <div class="box2">
+      <div id="game">
+        <button type="button" class="btn btn-primary" id="buttonRoll">Throw them bones</button>
+        <img id="weeknd" src="https://media0.giphy.com/media/VGoZVlR9naOZCiRLSy/giphy.gif?cid=ecf05e47kvhirbyk69z4ni5euyaf7wzu13godl5uyf2gwtwu&rid=giphy.gif&ct=g" alt="weeknd throwing die">
+        <button type="button" class="btn btn-success" id="buttonHold">Hold!</button>
+        <h2>Player 2: <span class="player2"></span></h2>
+        <p><span id="totalScore">Your total score:</span></p>
+        <p><span id="tempScore">Your temporary score:</span></p>
+        <p><span id="dieRoll">Your current die roll:</span></p>
+        <p id="resetButton"><button type="button" class="btn btn-danger" id="refresh">Restart Game!</button></p>
+      </div>
+    </div>
   </body>
 </html>
-  
