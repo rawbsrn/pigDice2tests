@@ -3,13 +3,16 @@ body {
 }
 
 .box1 {
+  box-sizing: border-box;
   float: left;
-  max-width: 50%;
+  width: 50%;
 }
 
 .box2 {
+  box-sizing: border-box;
   float: right;  
-  max-width: 50%;
+  width: 47%;
+  
 }
 
 #game {  
@@ -17,6 +20,7 @@ body {
   border: 5px solid white;
   padding: 25px;
   margin: 50px;
+  /* float: right;   */
 }
 
 h1 {
