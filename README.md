@@ -1,6 +1,8 @@
 # Pig Dice
 
-#### Greg Khmara, Rian Carter, Erika Mogollon, Kyle Miller, Marcus Ferreira
+#### Original code by: Greg Khmara, Rian Carter, Erika Mogollon, Kyle Miller, Marcus Ferreira
+
+#### Refactor by: Rian Carter, Cameron Johnson, Z Perez, Rob Sameh 
 
 #### This is a website that allows the user to play pig dice
 

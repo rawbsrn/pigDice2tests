@@ -1,3 +1,8 @@
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/styles.css';
+import $ from 'jquery';
+
 //CURRENT CODE 02.21.22
 function Player(playerName) {
   this.roll = 0;
