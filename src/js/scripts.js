@@ -4,7 +4,7 @@ import '../css/styles.css';
 import $ from 'jquery';
 
 //CURRENT CODE 02.21.22
-function Player(playerName) {
+export function Player(playerName) {
   this.roll = 0;
   this.tempScore = 0;
   this.totalScore = 0;
@@ -39,6 +39,7 @@ Player.prototype.dieRoll = function () {
       console.log(this.roll);
   }
 }
+
 
 Player.prototype.hold = function () {
   this.totalScore += this.tempScore;
