@@ -32,26 +32,25 @@ Player.prototype.dieRoll = function () {
   this.roll = Math.floor(Math.random() * 6 + 1);
   this.turn += 1;
   if(this.roll === 1) {
-      this.tempScore = 0;
-      console.log("You lose!");
+      return this.tempScore = 0;
   } else if (this.roll > 1) {
-      this.tempScore += this.roll;
-      console.log(this.roll);
+      return this.tempScore += this.roll;
   }
 }
-
 
 Player.prototype.hold = function () {
   this.totalScore += this.tempScore;
   this.tempScore = 0;
   this.roll = 0;
-  this.turn = 0; 
+  this.turn = 0;
+  return this.totalScore;
 }
 
 Player.prototype.winner = function () {
   if (this.totalScore >= 100) {
     alert(this.playerName + " You won! Wow!");
   }
+  return this.totalScore;
 }
 
 
